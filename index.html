@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Honey Autos | Car Accessories in F-10 Markaz, Islamabad</title>
+    <meta name="description" content="Your trusted car accessories and engine oil store in F-10 Markaz, Islamabad. We offer high-quality products, including genuine fitting mats, LED lights, and more.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <a href="#home" class="logo">Honey Autos</a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#products" class="nav-link">Products</a></li>
+                    <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Your Trusted Car Accessories & Engine Oil Store in F-10 Markaz, Islamabad</h1>
+                <div class="rating">
+                    <span>⭐</span>
+                </div>
+                <div class="cta-buttons">
+                    <a href="tel:0300-5125386" class="btn btn-primary">Call Now</a>
+                    <a href="https://maps.google.com/?q=Honey+Autos,F-10+Markaz,Islamabad" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">Get Directions</a>
+                    <a href="#products" class="btn btn-secondary">View Products</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title">About Honey Autos</h2>
+                <div class="about-content">
+                    <div>
+                        <p>Welcome to Honey Autos, your trusted car accessories and engine oil destination in F-10 Markaz, Islamabad. We offer a wide range of high-quality products to enhance the look and performance of your vehicle.</p>
+                        <br />
+                        <p>Our commitment is to provide authentic, genuine fitting products and ensure complete customer satisfaction. With years of experience, we source the best accessories to meet your needs, guaranteeing quality and durability.</p>
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1616422285623-13ff0162193c?q=80&w=600&auto=format&fit=crop" alt="Honey Autos Store" />
+                </div>
+            </div>
+        </section>
+
+        <section id="products" class="section">
+            <div class="container">
+                <h2 class="section-title">Our Products</h2>
+                <div id="products-container">
+                    <!-- Products will be dynamically inserted here by JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="section">
+            <div class="container">
+                <h2 class="section-title">Our Gallery</h2>
+                <div class="gallery-grid" id="gallery-grid">
+                    <!-- Gallery items will be dynamically inserted here by JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container">
+                <h2 class="section-title">Contact Us</h2>
+                <div class="contact-grid">
+                    <div class="contact-details">
+                        <h3>Get In Touch</h3>
+                        <br />
+                        <ul>
+                            <li>
+                                <span>📞</span>
+                                <div><strong>Phone:</strong> <a href="tel:0300-5125386">0300-5125386</a></div>
+                            </li>
+                            <li>
+                                <span>📍</span>
+                                <div><strong>Address:</strong> <a href="https://maps.google.com/?q=Honey+Autos,F-10+Markaz,Islamabad" target="_blank" rel="noopener noreferrer">Shop No. 7-A, Street 1A, F-10 Markaz, F-10/4, Islamabad (Located in Shell)</a></div>
+                            </li>
+                            <li>
+                                <span>⏰</span>
+                                <div><strong>Hours:</strong> Open daily, closes at 11:00 PM</div>
+                            </li>
+                            <li>
+                              <span>📘</span>
+                              <div><strong>Facebook:</strong> <a href="#" target="_blank" rel="noopener noreferrer">Visit our Profile</a></div>
+                            </li>
+                        </ul>
+                    </div>
+                     <div class="map-container">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3319.497593258774!2d73.0310810152055!3d33.69614488070445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38df955a0305807d%3A0x6a5b674845e2c5e!2sHoney%20Autos!5e0!3m2!1sen!2s!4v1695211234567"
+                            width="600"
+                            height="450"
+                            style="border: 0"
+                            allowfullscreen
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"
+                        ></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <button class="fab-chat" aria-label="Open Chat">💬</button>
+
+    <div class="modal-overlay" id="modal-overlay">
+        <div class="modal-content">
+            <button class="modal-close">✕</button>
+            <img id="modal-image" src="" alt="">
+            <p id="modal-caption" class="modal-caption"></p>
+        </div>
+    </div>
+
+    <div class="chatbot-container" id="chatbot-container">
+        <div class="chat-header">
+            <h3>Honey Autos Assistant</h3>
+            <button class="chat-close">✕</button>
+        </div>
+        <div class="chat-body" id="chat-body">
+            <div class="message bot">
+                <div class="bubble">Hello! I'm the Honey Autos assistant. How can I help you with your car accessory needs today?</div>
+            </div>
+        </div>
+        <div class="chat-footer">
+            <form id="chat-form">
+                <input
+                    type="text"
+                    id="chat-input"
+                    placeholder="Ask about products..."
+                    aria-label="Your message"
+                />
+                <button type="submit" id="chat-send">➤</button>
+            </form>
+        </div>
+    </div>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; <span id="current-year"></span> Honey Autos. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

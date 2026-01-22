@@ -1,0 +1,14 @@
+{
+  "name": "honey-autos",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "echo 'Static site - no build required'",
+    "build": "echo 'Static site - ready to deploy'"
+  },
+  "dependencies": {
+    "@google/genai": "^1.38.0"
+  },
+  "devDependencies": {}
+}
